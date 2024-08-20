@@ -1,0 +1,8 @@
+create database credflex;
+
+
+create table estoque (i_produto_estoque int primary key not null auto_increment,
+s_nome_estoque varchar(80) not null, s_dsc_estoque varchar(80), 
+i_quantestoque_estoque int, i_quantuso_estoque int, i_total_estoque int);
+
+select *from estoque;
